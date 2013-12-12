@@ -13,7 +13,7 @@ do
     if [ ${#res} == 0 ]
         then
             #echo "Port not in use";
-            /path/to/python  /path/to/manage.py runserver
+            python manage.py runserver
     #else
         #echo "Port in use: $res"
     fi
